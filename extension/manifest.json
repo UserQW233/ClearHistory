@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Clear History on Exit",
+  "version": "1.0",
+  "description": "This extension clears your browsing history and download history when you close Chrome.",
+  "permissions": [
+    "browsingData",
+    "sessions"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
